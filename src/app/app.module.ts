@@ -11,8 +11,6 @@ import {MatTableModule} from '@angular/material/table';
 import { CategoriesComponent } from './views/categories/categories.component';
 import { DevicesComponent } from './views/devices/devices.component';
 import {MatButtonModule} from '@angular/material/button';
-import { DeviceComponent } from './models/device/device.component';
-import { CategoryComponent } from './models/category/category.component';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { FooterComponent } from './components/footer/footer.component';
 
@@ -23,8 +21,6 @@ import { FooterComponent } from './components/footer/footer.component';
     HeaderComponent,
     CategoriesComponent,
     DevicesComponent,
-    DeviceComponent,
-    CategoryComponent,
     FooterComponent,
   ],
   imports: [
