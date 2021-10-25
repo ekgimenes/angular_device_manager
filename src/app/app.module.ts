@@ -12,7 +12,6 @@ import { CategoriesComponent } from './views/categories/categories.component';
 import { DevicesComponent } from './views/devices/devices.component';
 import {MatButtonModule} from '@angular/material/button';
 import {MatFormFieldModule} from '@angular/material/form-field';
-import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +20,6 @@ import { FooterComponent } from './components/footer/footer.component';
     HeaderComponent,
     CategoriesComponent,
     DevicesComponent,
-    FooterComponent,
   ],
   imports: [
     BrowserModule,
