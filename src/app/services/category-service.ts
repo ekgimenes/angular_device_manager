@@ -10,12 +10,10 @@ export class CategoryService {
 
   static getCategories(): Category[] {
 
-    var devices: Category[] = [];
-    //TODO: implement data reader.
-    devices.push({id: 1, name: 'category 1',});
-    devices.push({id: 2, name: 'category 2'});
-    //TODO: implement data reader.
+    var categories: Category[] = [];
+    categories.push({id: 1, name: 'category 1',});
+    categories.push({id: 2, name: 'category 2'});
 
-   return devices;
+   return categories;
   }
 }
